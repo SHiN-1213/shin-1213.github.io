@@ -2,6 +2,7 @@ body {
     font-family: "Noto Sans JP";
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap');
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
@@ -13,12 +14,15 @@ body {
 
 /*test*/
 
+body{
+    background-color: #fff;
+}
+
 footer {
     background-color: yellow;
 }
 
 /*test*/
-
 
 header {
     position: fixed;
@@ -98,6 +102,31 @@ main {
 
 #mainImage2 {
     z-index: 0;
+}
+
+#mainContent{
+}
+
+#mainContainer{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.contentsHeadline{
+    font-size: 8em;
+    font-weight: 100;
+    mix-blend-mode: difference;
+    color: white;
+}
+
+.contentsCover{
+    position: absolute;
+}
+
+#machineCover{
+    background-color: rgb(0, 153, 255);
+    width: 50vw;
+    height: 10vw;
 }
 
 footer {
