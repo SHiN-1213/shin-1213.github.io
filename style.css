@@ -36,6 +36,7 @@ header {
 
 header:hover {
     background-color: #ddd;
+    color: black;
 }
 
 header.scroll {
